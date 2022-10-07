@@ -10,7 +10,7 @@ function App() {
         <Navbar />
           <Routes>
             <Route path='/' />
-          </Routes> 
+          </Routes>
       </Router>
     </>
   );
