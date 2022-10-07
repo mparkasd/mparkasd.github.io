@@ -7,7 +7,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='nav-logo'>
-                    nutsosya <i class="fa-solid fa-code"></i>
+                 <i class="fa-solid fa-code"></i> nutsosya 
                 </Link>
             </div>
         </nav>
