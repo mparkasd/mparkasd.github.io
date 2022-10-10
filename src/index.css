@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap');
 
+:root {
+    --colorBg: #1f1f38;
+    --colorBgVariantvariant: #2c2c6c;
+    --colorPrimary: #4db5ff;
+    --colorPrimaryVariant: rgba(77, 181, 155, 0.4);
+    --colorWhite: #fff;
+    --colorLight: rgba(255, 255, 255, 0.6);
+
+    --containerWidthLarge: 75%;
+    --containerWidthMedium: 86%;
+    --containerWidthSmall: 90%;
+
+    --transition: all 400ms ease;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: var(--colorBg);
+    color: var(--colorWhite);
+    line-height: 1,7;
+    background-image: url(./assets/bg-texture.png);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,26 +41,59 @@
     text-decoration: none;
 }
 
-:root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 155, 0.4);
-    --color-while: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+/* UNIVERSAL STYLES */
+.container {
+    width: var(--containerWidthLarge);
+    margin: 0 auto; 
+}
 
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
 
-    html {
-        scroll-behavior: smooth;
-    }
+h1 {
+    font-size: 2.5rem;
+}
 
-    ::-webkit-scrollbar{
-        display: none;
-    }
-    body {
-        font-family: 'Oswald', sans-serif;
-    }
+section {
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+    text-align: center;
+    color: var(--colorLight);
+}
+
+section > h2 {
+    color: var(--colorPrimary);
+    margin-bottom: 3rem;
+}
+
+.textLight {
+    color: var(--colorLight);
+}
+
+a {
+    color: var(--colorPrimary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--colorWhite);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--colorPrimary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--colorPrimary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--colorWhite);
+    color: var(--colorBg);
 }
