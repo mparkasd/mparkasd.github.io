@@ -9,7 +9,6 @@
     --colorLight: rgba(255, 255, 255, 0.6);
 
     --containerWidthLarge: 75%;
-    --containerWidthMedium: 86%;
     --containerWidthSmall: 90%;
 
     --transition: all 400ms ease;
@@ -96,4 +95,28 @@ a:hover {
 .btn:hover {
     background: var(--colorWhite);
     color: var(--colorBg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--colorPrimary);
+    color: var(--colorBg);
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* DEVICES RESIZING */
+/* SMARTPHONES */
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--containerWidthSmall);
+    }
+
+    section > h2 {
+        margin-bottom: 2rem;
+    }
 }
