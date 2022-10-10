@@ -1,11 +1,10 @@
 import React from 'react'
-//import CV from '../../assets/CV'
-//<a href={CV} download>Download CV</a>
+import CV from '../../assets/cv.pdf'
 
 const HeaderButtons = () => {
   return (
     <div className='hb'>
-        <div>Download CV</div>
+        <a href={CV} download>Download CV</a>
         <a href='#contact'>Contact Me</a>
     </div>
   )
