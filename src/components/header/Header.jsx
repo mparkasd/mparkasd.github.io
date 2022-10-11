@@ -1,8 +1,14 @@
 import React from 'react'
 import './header.css'
 import HeaderButtons from './HeaderButtons'
-import iPhoto from '../../assets/iPhoto.png'
+//import iPhoto from '../../assets/iPhoto.png'
 import HeaderSocials from './HeaderSocials'
+
+/*
+<div className="iPhoto">
+<img src={iPhoto} alt="me" />
+</div>
+*/
 
 const Header = () => {
   return (
@@ -14,9 +20,7 @@ const Header = () => {
         <HeaderButtons />
         <HeaderSocials />
 
-        <div className="iPhoto">
-          <img src={iPhoto} alt="me" />
-        </div>
+
 
         <a href='#contact' className='scrollDown'>Scroll Down</a>
       </div>
