@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 6rem;
+    padding-top: 3.5rem;
     overflow: hidden;
 }
 
@@ -40,16 +40,15 @@ header {
 .iPhoto {
     
     background: linear-gradient(
-        var(--colorPrimary) -25%, transparent 115%
+        transparent 8%, var(--colorPrimary) 50%, transparent 88%
     );
     width: 22rem;
     height: 35rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 6rem;
-    border-radius: 11rem 11rem 0.5rem 0.5rem;
+    margin-top: 3rem;
     overflow: hidden;
-    padding: 6rem 1.2rem 1.2rem 1.2rem;
+    padding: 2.5rem 1.2rem 1.2rem 1.2rem;
 }
 
 .scrollDown {
@@ -59,4 +58,20 @@ header {
     transform: rotate(-90deg);
     font-weight: 200;
     font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .headerSocials, .scrollDown {
+        display: none;
+    }
 }
