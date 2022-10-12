@@ -9,6 +9,7 @@
     --colorLight: rgba(255, 255, 255, 0.6);
 
     --containerWidthLarge: 75%;
+    --containerWidthMedium: 86%;
     --containerWidthSmall: 90%;
 
     --transition: all 400ms ease;
@@ -56,6 +57,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -112,6 +114,13 @@ img {
 }
 
 /* DEVICES RESIZING */
+/* TABLETS */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--containerWidthMedium);
+    }
+
+}
 /* SMARTPHONES */
 @media screen and (max-width: 600px) {
     .container {
