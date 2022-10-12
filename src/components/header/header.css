@@ -40,16 +40,16 @@ header {
 .iPhoto {
     
     background: linear-gradient(
-        var(--colorPrimary), transparent
+        var(--colorPrimary) -25%, transparent 115%
     );
     width: 22rem;
-    height: 32rem;
+    height: 35rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 6rem;
     border-radius: 11rem 11rem 0.5rem 0.5rem;
     overflow: hidden;
-    padding: 6rem 1.5rem 1.5rem 1.5rem;
+    padding: 6rem 1.2rem 1.2rem 1.2rem;
 }
 
 .scrollDown {
