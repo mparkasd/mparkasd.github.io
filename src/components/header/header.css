@@ -12,7 +12,7 @@ header {
 
 /* HEADER BUTTONS */
 .headerButtons {
-    margin-top: 3rem;
+    margin-top: 4rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -32,7 +32,7 @@ header {
 .headerSocials::after {
     content: '';
     width: 2px;
-    height: 3rem;
+    height: 5rem;
     background: var(--colorPrimary);
 }
 

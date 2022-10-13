@@ -2,11 +2,11 @@
 
 :root {
     --colorBg: #000000c5;
-    --colorBgVariantvariant: #2c2c6c;
-    --colorPrimary: #eeeeeed8;
-    --colorPrimaryVariant: rgba(77, 181, 155, 0.4);
-    --colorWhite: rgba(255, 86, 86, 0.932);
-    --colorLight: rgba(255, 255, 255, 0.6);
+    --colorBgVariant: #0000006b;
+    --colorPrimary:  rgba(255, 86, 86, 0.932);
+    --colorPrimaryVariant: rgba(255, 86, 86, 0.678);
+    --colorWhite: #eeeeeed8;
+    --colorLight: rgba(255, 122, 122, 0.616);
 
     --containerWidthLarge: 75%;
     --containerWidthMedium: 86%;
@@ -52,7 +52,11 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2em;
+}
+
+h4, h5 {
+    color: var(--colorLight)
 }
 
 section {
@@ -76,18 +80,18 @@ section > h2 {
 
 /**/
 a {
-    color: var(--colorPrimary);
+    color: var(--colorWhite);
     transition: var(--transition);
 }
 
 a:hover {
-    color: var(--colorWhite);
+    color: var(--colorPrimaryVariant);
 }
 
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--colorPrimary);
+    color: var(--colorWhite);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -96,13 +100,13 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--colorWhite);
-    color: var(--colorBg);
+    background: var(--colorBgVariant);
+    color: var(--colorPrimary);
     border-color: transparent;
 }
 
 .btnPrimary {
-    background: var(--colorPrimary);
+    background: var(--colorPrimaryVariant);
     color: var(--colorBg);
 }
 
