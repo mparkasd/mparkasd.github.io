@@ -40,7 +40,7 @@ header {
 .iPhoto {
     
     background: linear-gradient(
-        transparent 8%, var(--colorPrimary) 50%, transparent 88%
+        transparent 8%, var(--colorBg) 50%, transparent 88%
     );
     width: 22rem;
     height: 35rem;
