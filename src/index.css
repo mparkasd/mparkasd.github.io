@@ -107,7 +107,7 @@ a:hover {
 
 .btnPrimary {
     background: var(--colorPrimaryVariant);
-    color: var(--colorBg);
+    color: var(--colorWhite);
 }
 
 img {
