@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id='about'>
 
-      <h5>hey,</h5>
+      <h5 className='hey'>hey,</h5>
       <h2>my name is Dimitris G. Barkas</h2>
 
       <div className='container aboutContainer'>
@@ -27,7 +27,7 @@ const About = () => {
               <BsPencil className='aboutIcon'/>
               <h4>Editor</h4>
               <small>
-                I write stuff about <a href='https://bgeek.eu/author/mparkas/' target="_blank" rel='noreferrer'>games.</a>
+                I write stuff about <a href='https://bgeek.eu/author/mparkas/' target="_blank" rel='noreferrer' className='bgeek'>games.</a>
               </small>
             </article>
 

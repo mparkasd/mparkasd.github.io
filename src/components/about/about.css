@@ -4,10 +4,22 @@
     gap: 15%;
 }
 
+.bgeek {
+    color: var(--colorPrimaryVariant);
+}
+
+.hey {
+    color: white;
+}
+
+.bgeek:hover {
+    color: cornflowerblue;
+}
+
 .aboutMe {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 3rem;
+    border-radius: 2rem;
     background: linear-gradient(
         45deg, 
         transparent, 
@@ -16,4 +28,36 @@
     );
     display: grid;
     place-items: center;
+}
+
+.aboutMePhoto {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.aboutMePhoto:hover {
+    transform: rotate(0);
+}
+
+.aboutCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.aboutCard {
+    background: var(--colorBgVariant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.aboutCard:hover {
+    background: transparent;
+    border-color: var(--colorPrimaryVariant);
+    cursor: default;
 }
