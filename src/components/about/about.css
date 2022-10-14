@@ -109,7 +109,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-    .aboutCard {
+    .aboutContent {
         text-align: center;
+    }
+    .aboutContent p {
+        margin: 1.5rem 0;
     }
 }
