@@ -13,7 +13,7 @@
 }
 
 .bgeek:hover {
-    color: cornflowerblue;
+    color: white;
 }
 
 .aboutMe {
@@ -69,10 +69,47 @@
 }
 
 .aboutCard h4 {
+    color: var(--colorPrimaryVariant);
     font-size: 1.4rem;
 }
 
 .aboutCard small {
     font-size: 1rem;
     color: rgba(207, 207, 207, 0.781);
+}
+
+.aboutContent p {
+    margin: 2rem 0 2.6rem;
+    color: var(--colorLight);
+}
+
+/* DEVICES RESIZING */
+/* TABLETS */
+@media screen and (max-width: 1024px) {
+    .aboutContainer {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .aboutMe {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .aboutContent p{
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* SMARTPHONES */
+@media screen and (max-width: 600px) {
+    .aboutMe {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+    .aboutCards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .aboutCard {
+        text-align: center;
+    }
 }
