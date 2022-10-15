@@ -4,6 +4,10 @@ header {
     overflow: hidden;
 }
 
+.title {
+    color: var(--colorPrimary);
+}
+
 .headerContainer {
     text-align: center;
     height: 100%;
@@ -12,7 +16,7 @@ header {
 
 /* HEADER BUTTONS */
 .headerButtons {
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -32,7 +36,7 @@ header {
 .headerSocials::after {
     content: '';
     width: 2px;
-    height: 5rem;
+    height: 3rem;
     background: var(--colorWhite);
 }
 
