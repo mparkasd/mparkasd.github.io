@@ -22,25 +22,24 @@ const About = () => {
 
         <div className="aboutContent">
           <div className="aboutCards">
-
             <article className='aboutCard'>
               <BsPencil className='aboutIcon'/>
               <h4>Editor</h4>
               <small>
-                I write stuff about <a href='https://bgeek.eu/author/mparkas/' target="_blank" rel='noreferrer' className='bgeek'>games.</a>
+                I write <a href='https://bgeek.eu/author/mparkas/' target="_blank" rel='noreferrer' className='bgeek'>stuff</a> about games.
               </small>
-            </article>
-
-            <article className='aboutCard'>
-              <TbSchool className='aboutIcon'/>
-              <h4>Education</h4>
-              <small>BSc in Computer Science.</small>
             </article>
 
             <article className='aboutCard'>
               <FaReact className='aboutIcon'/>
               <h4>Web - Dev</h4>
               <small>Enjoy learning about new tech.</small>
+            </article>
+
+            <article className='aboutCard'>
+              <TbSchool className='aboutIcon'/>
+              <h4>Education</h4>
+              <small>BSc in Computer Science.</small>
             </article>
           </div>
 
