@@ -1,6 +1,9 @@
 import React from 'react'
 import './hobbies.css'
-import {BsCheckCircleFill} from 'react-icons/bs'
+import {TbDeviceGamepad2} from 'react-icons/tb'
+import {SiJavascript, SiHtml5, SiReact} from 'react-icons/si'
+import {GiRaceCar, GiPhotoCamera} from 'react-icons/gi'
+import {FaCss3} from 'react-icons/fa'
 
 const Hobbies = () => {
   return (
@@ -13,29 +16,32 @@ const Hobbies = () => {
           <h3>Web Development</h3>
           <div className="hobbiesContent">
             <article className='hobbiesDetails'>
-              <BsCheckCircleFill />
-              <h4>HTML</h4>
-              <small className='textLight'>Intermediate</small>
+              <SiHtml5 className='hobbiesDetailsIcon' />
+              <div>
+                <h4>HTML</h4>
+                <small className='textLight'>Intermediate</small>
+              </div>
             </article>
             <article className='hobbiesDetails'>
-              <BsCheckCircleFill />
-              <h4>CSS</h4>
-              <small className='textLight'>Intermediate</small>
+              <FaCss3 className='hobbiesDetailsIcon' />
+              <div>
+                <h4>CSS</h4>
+                <small className='textLight'>Intermediate</small>
+              </div>
             </article>
             <article className='hobbiesDetails'>
-              <BsCheckCircleFill />
-              <h4>Bootstrap</h4>
-              <small className='textLight'>Intermediate</small>
+              <SiJavascript className='hobbiesDetailsIcon' />
+              <div>
+                <h4>JavaScript</h4>
+                <small className='textLight'>Intermediate</small>
+              </div>
             </article>
             <article className='hobbiesDetails'>
-              <BsCheckCircleFill />
-              <h4>JavaScript</h4>
-              <small className='textLight'>Intermediate</small>
-            </article>
-            <article className='hobbiesDetails'>
-              <BsCheckCircleFill />
-              <h4>React</h4>
-              <small className='textLight'>Intermediate</small>
+              <SiReact className='hobbiesDetailsIcon' />
+              <div>
+                <h4>React</h4>
+                <small className='textLight'>Intermediate</small>
+              </div>
             </article>
           </div>
         </div>
@@ -44,30 +50,26 @@ const Hobbies = () => {
           <h3>Hobbies</h3>
             <div className="hobbiesContent">
               <article className='hobbiesDetails'>
-                <BsCheckCircleFill />
-                <h4>HTML</h4>
-                <small className='textLight'>Intermediate</small>
+                <GiPhotoCamera className='hobbiesDetailsIcon' />
+                <div>
+                  <h4>Photography</h4>
+                  <small className='textLight'>I like capturing the urban lifestyle.</small>
+                </div>
               </article>
               <article className='hobbiesDetails'>
-                <BsCheckCircleFill />
-                <h4>CSS</h4>
-                <small className='textLight'>Intermediate</small>
+                <GiRaceCar className='hobbiesDetailsIcon' />
+                <div>
+                  <h4>Formula 1</h4>
+                  <small className='textLight'>Just your everyday F1 enjoyer.</small>
+                </div>
               </article>
               <article className='hobbiesDetails'>
-                <BsCheckCircleFill />
-                <h4>Bootstrap</h4>
-                <small className='textLight'>Intermediate</small>
-              </article>
-              <article className='hobbiesDetails'>
-                <BsCheckCircleFill />
-                <h4>JavaScript</h4>
-                <small className='textLight'>Intermediate</small>
-              </article>
-              <article className='hobbiesDetails'>
-                <BsCheckCircleFill />
-                <h4>React</h4>
-                <small className='textLight'>Intermediate</small>
-              </article>          
+                <TbDeviceGamepad2 className='hobbiesDetailsIcon' />
+                <div>
+                  <h4>Gaming Editor</h4>
+                  <small className='textLight'>I love playing games and sometimes write about them.</small>
+                </div>
+              </article>        
           </div>
         </div>
       </div>
