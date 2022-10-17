@@ -1,14 +1,13 @@
 import React from 'react'
 import './hobbies.css'
 import {SiJavascript, SiHtml5, SiReact} from 'react-icons/si'
-import {FaCode} from 'react-icons/fa'
 import {FaCss3} from 'react-icons/fa'
 
 const Hobbies = () => {
   return (
     <section id='hobbies'>
-      <h5>Skills & Hobbies</h5>
-      <h2>OMG</h2>
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
 
       <div className="hobbiesContainer">
         <div className="hobbiesFronEnd">
@@ -46,30 +45,10 @@ const Hobbies = () => {
         </div>
 
         <div className="hobbiesBackEnd">
-          <h3>Hobbies</h3>
+          <h3>Portfolio</h3>
             <div className="hobbiesContent">
-              <article className='hobbiesDetails'>
-                <FaCode className='hobbiesDetailsIcon' />
-                <div>
-                  <h4>Photography</h4>
-                  <small className='textLight'>I like capturing the urban lifestyle.</small>
-                </div>
-              </article>
-              <article className='hobbiesDetails'>
-                <FaCode className='hobbiesDetailsIcon' />
-                <div>
-                  <h4>Formula 1</h4>
-                  <small className='textLight'>Just your everyday F1 enjoyer.</small>
-                </div>
-              </article>
-              <article className='hobbiesDetails'>
-                <FaCode className='hobbiesDetailsIcon' />
-                <div>
-                  <h4>Gaming Editor</h4>
-                  <small className='textLight'>I love playing games and sometimes write about them.</small>
-                </div>
-              </article>        
-          </div>
+
+            </div>
         </div>
       </div>
     </section>
