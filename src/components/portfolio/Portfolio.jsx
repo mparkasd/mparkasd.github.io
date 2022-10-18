@@ -13,7 +13,7 @@ const Portfolio = () => {
       <h2>Services</h2>
 
       <div className="portfolioContainer">
-        <div className="portfolioFronEnd">
+        <div>
           <h3>Web Development</h3>
           <div className="portfolioContent">
             <article className='portfolioDetails'>
@@ -47,14 +47,13 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className="portfolioBackEnd">
+        <div>
           <h3>Portfolio</h3>
           <div className="portfolioContent">
             <article className='portfolioItem'>
               <div className="portfolioItemIMG">
                 <img src={PortfolioIMG} alt="My Portfolio" />
               </div>
-              <h3>My Portfolio</h3>
               <a href="https://github.com/mparkasd/mparkasd.github.io" className='btn' target='_blank' rel='noreferrer'>Github</a>
               <button className='btn btnPrimary' onClick={() => alert("You're already viewing the Demo")}>Live Demo</button>
             </article>
@@ -62,7 +61,6 @@ const Portfolio = () => {
               <div className="portfolioItemIMG">
                 <img src={PortfolioIMG1} alt="My Portfolio" />
               </div>
-              <h3>My Experience</h3>
               <a href={CV} download className='btn'>Download CV</a>
             </article>
           </div>
