@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import {SiJavascript, SiHtml5, SiReact} from 'react-icons/si'
 import {FaCss3} from 'react-icons/fa'
-import PortfolioIMG from '../../assets/portfolioIMG.jpg'
+import PortfolioIMG from '../../assets/portfolioIMG.png'
 import PortfolioIMG1 from '../../assets/portfolioIMG1.png'
 import CV from '../../assets/cv.pdf'
 
