@@ -22,7 +22,7 @@
 
 .portfolioContainer > div h3 {
     border-radius: 1rem 1rem 1rem 1rem;
-    background: transparent;
+    background: var(--colorBgVariant);
     border: 2px solid var(--colorPrimary);
     height: fit-content;
     transition: var(--transition);
