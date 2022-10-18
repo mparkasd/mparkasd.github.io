@@ -1,9 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import {SiJavascript, SiHtml5, SiReact} from 'react-icons/si'
-import {FaCss3} from 'react-icons/fa'
-import PortfolioIMG from '../../assets/portfolioIMG.png'
-import PortfolioIMG1 from '../../assets/portfolioIMG1.png'
+import {SiJavascript, SiHtml5, SiReact, SiCheckmarx} from 'react-icons/si'
+import {FaCss3, FaGithub, FaFileDownload} from 'react-icons/fa'
 import CV from '../../assets/cv.pdf'
 
 const Portfolio = () => {
@@ -51,17 +49,16 @@ const Portfolio = () => {
           <h3>Portfolio</h3>
           <div className="portfolioContent">
             <article className='portfolioItem'>
-              <div className="portfolioItemIMG">
-                <img src={PortfolioIMG} alt="My Portfolio" />
-              </div>
-              <a href="https://github.com/mparkasd/mparkasd.github.io" className='btn' target='_blank' rel='noreferrer'>Github</a>
+              <h4><SiCheckmarx /> My Project (s)</h4>
+              <br />
+              <a href="https://github.com/mparkasd/mparkasd.github.io" className='btn' target='_blank' rel='noreferrer'><FaGithub /> Github</a>
+              <br />
               <button className='btn btnPrimary' onClick={() => alert("You're already viewing the Demo")}>Live Demo</button>
             </article>
             <article className='portfolioItem'>
-              <div className="portfolioItemIMG">
-                <img src={PortfolioIMG1} alt="My Portfolio" />
-              </div>
-              <a href={CV} download className='btn'>Download CV</a>
+              <h4><SiCheckmarx /> Curriculum Vitae</h4>
+              <br />
+              <a href={CV} download className='btn'><FaFileDownload /> Download</a>
             </article>
           </div>
         </div>
