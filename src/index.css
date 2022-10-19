@@ -19,7 +19,7 @@ body {
     font-family: 'Oswald', sans-serif;
     background: var(--colorBg);
     color: var(--colorWhite);
-    line-height: 1,7;
+    line-height: 1.7;
     background-image: url(./assets/bg-texture.png);
 }
 
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 h4, h5 {
@@ -105,8 +105,16 @@ a:hover {
 }
 
 .btnPrimary {
-    background: var(--colorBgVariant);
+    width: max-content;
+    display: inline-block;
+    background: transparent;
     color: var(--colorWhite);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    font-family: 'Oswald', sans-serif;
+    line-height: 1,7;
 }
 
 img {

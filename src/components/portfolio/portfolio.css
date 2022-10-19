@@ -2,13 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    width: 90%;
-    padding-left: 10%;
 }
 
 .portfolioContainer > div {
     background: var(--colorBgVariant);
-    padding: 2.4rem 5rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -22,15 +20,20 @@
 
 .portfolioContainer > div h3 {
     text-align: center;
-    margin-bottom: 2rem;
-    color: var(--colorPrimary);
+    margin-bottom: 3rem;
+    padding: 0.2rem;
+    color: var(--colorPrimaryVariant);
+    background: var(--colorBgVariant);
+    border: 1px solid transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
 }
 
 .portfolioContent {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    padding-left: 5rem;
+    justify-items: center;
+    margin-bottom: 1rem;
 }
 
 .portfolioDetails {
@@ -43,6 +46,12 @@
     color: var(--colorPrimaryVariant);
 }
 
+.portfolioItem {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
 
 /* DEVICES RESIZING */
 /* TABLETS */
@@ -53,7 +62,7 @@
 
     .portfolioContainer > div {
         width: 80%;
-        padding: 2rem;
+        padding: 1rem;
         margin: 0 auto;
     }
 
@@ -71,5 +80,11 @@
     .portfolioContainer > div {
         width: 90%;
         padding: 2rem 1rem;
+    }
+
+    .portfolioItem {
+        padding: 0.2rem;
+        text-align: center;
+        gap: 1rem;
     }
 }
