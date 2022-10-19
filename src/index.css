@@ -115,6 +115,7 @@ a:hover {
     transition: var(--transition);
     font-family: 'Oswald', sans-serif;
     line-height: 1,7;
+    text-decoration: underline;
 }
 
 img {

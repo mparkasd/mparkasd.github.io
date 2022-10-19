@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import {SiJavascript, SiHtml5, SiReact, SiCheckmarx} from 'react-icons/si'
 import {FaCss3, FaGithub, FaFileDownload} from 'react-icons/fa'
-import {CgLivePhoto} from 'react-icons/cg'
+import {CgMediaLive} from 'react-icons/cg'
 import CV from '../../assets/cv.pdf'
 
 const Portfolio = () => {
@@ -53,7 +53,7 @@ const Portfolio = () => {
               <h4><SiCheckmarx className='portfolioDetailsIcon' /> My Projects</h4>
                 <small>
                   <a href="https://github.com/mparkasd/mparkasd.github.io" className='btn' target='_blank' rel='noreferrer'><FaGithub /> Github</a>
-                  <button className='btn btnPrimary' onClick={() => alert("You're already viewing the Demo")}><CgLivePhoto /> Live Demo</button>
+                  <button className='btn btnPrimary' onClick={() => alert("You're already viewing the Demo")}><CgMediaLive /> Live Demo</button>
                 </small>
             </article>
             <article className='portfolioItem'>
