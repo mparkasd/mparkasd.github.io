@@ -49,8 +49,9 @@
 .portfolioItem {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
     justify-items: center;
+    padding-left: 1rem;
 }
 
 /* DEVICES RESIZING */
