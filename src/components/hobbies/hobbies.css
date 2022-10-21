@@ -1,0 +1,9 @@
+.container.hobbiesContainer {
+    width: 50%;
+}
+
+.hoby {
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
