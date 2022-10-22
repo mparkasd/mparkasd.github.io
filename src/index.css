@@ -122,7 +122,6 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
-    margin-top: -2.5rem;
 }
 
 /* DEVICES RESIZING */

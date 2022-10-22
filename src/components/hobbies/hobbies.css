@@ -1,9 +1,24 @@
 .container.hobbiesContainer {
-    width: 50%;
+    width: 40%;
 }
 
-.hoby {
-    width: 4rem;
+.hobby {
+    width: 7rem;
     aspect-ratio: 1/1;
     overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.2rem solid var(--colorBg);
+}
+
+.hobbySlide {
+    background: var(--colorBgVariant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.hobbyDesc {
+    
 }
