@@ -20,5 +20,30 @@
 }
 
 .hobbyDesc {
-    
+    color: var(colorLight);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+
+
+/* DEVICES RESIZING */
+/* TABLETS */
+@media screen and (max-width: 1024px) {
+    .container.hobbiesContainer{
+        width: 60%;
+    }
+}
+
+/* SMARTPHONES */
+@media screen and (max-width: 600px) {
+    .container.hobbiesContainer{
+        width: var(--containerWidthSm);
+    }
+
+    .hobbyDesc {
+        width: var(--containerWidthSm);
+    }
 }
