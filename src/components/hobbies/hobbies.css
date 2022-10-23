@@ -1,5 +1,6 @@
 .container.hobbiesContainer {
     width: 40%;
+    padding-bottom: 4rem;
 }
 
 .hobby {
@@ -27,7 +28,9 @@
     margin: 0.8rem auto 0;
 }
 
-
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--colorPrimary);
+}
 
 /* DEVICES RESIZING */
 /* TABLETS */
@@ -41,9 +44,11 @@
 @media screen and (max-width: 600px) {
     .container.hobbiesContainer{
         width: var(--containerWidthSm);
+        margin: 1rem;
     }
 
     .hobbyDesc {
         width: var(--containerWidthSm);
+        margin: 1rem;
     }
 }
