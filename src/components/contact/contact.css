@@ -11,6 +11,19 @@
     gap: 1.2rem;
 }
 
+.contactCard {
+    background: var(--colorBgVariant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contactCard:hover {
+    background: transparent;
+    border-color: var(--colorPrimaryVariant);
+}
 
 
 /* DEVICES RESIZING */
