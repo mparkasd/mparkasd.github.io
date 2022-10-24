@@ -79,12 +79,12 @@ section > h2 {
 
 /**/
 a {
-    color: var(--colorWhite);
+    color: var(--colorPrimaryVariant);
     transition: var(--transition);
 }
 
 a:hover {
-    color: var(--colorPrimaryVariant);
+    color: white;
 }
 
 .btn {
@@ -107,7 +107,7 @@ a:hover {
 .btnPrimary {
     width: max-content;
     display: inline-block;
-    background: transparent;
+    background: var(--colorBgVariant);
     color: var(--colorWhite);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
