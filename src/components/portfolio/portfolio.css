@@ -22,7 +22,7 @@
     text-align: center;
     margin-bottom: 3rem;
     padding: 0.2rem;
-    color: var(--colorPrimaryVariant);
+    color: white;
     background: var(--colorBgVariant);
     border: 1px solid var(--colorPrimaryVariant);
     border-radius: 2rem 2rem 2rem 2rem;
