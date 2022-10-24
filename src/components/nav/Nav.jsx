@@ -5,14 +5,14 @@ import {RiHomeLine, RiUserLine, RiCameraLensFill, RiContactsBookLine} from 'reac
 import {AiOutlineMessage} from 'react-icons/ai'
 
 const Nav = () => {
-  const [currentNav, setCurrentNav] = useState ('#')
+  const [currentNav, setCurrentNav] = useState ("#home")
   return (
     <nav>
-      <a href="#" onClick={() => setCurrentNav('#')} className={currentNav === '#' ? 'currentNav' : ''}><RiHomeLine /></a>
+      <a href="#home" onClick={() => setCurrentNav("#home")} className={currentNav === "#home" ? 'currentNav' : ''}><RiHomeLine /></a>
       <a href="#about" onClick={() => setCurrentNav('#about')} className={currentNav === '#about' ? 'currentNav' : ''}><RiUserLine/></a>
       <a href="#portfolio" onClick={() => setCurrentNav('#portfolio')} className={currentNav === '#portfolio' ? 'currentNav' : ''}><RiContactsBookLine /></a>
       <a href="#hobbies" onClick={() => setCurrentNav('#hobbies')} className={currentNav === '#hobbies' ? 'currentNav' : ''}><RiCameraLensFill /></a>
-      <a href="#contact"onClick={() => setCurrentNav('#contact')} className={currentNav === '#contact' ? 'currentNav' : ''}><AiOutlineMessage /></a>
+      <a href="#contact" onClick={() => setCurrentNav('#contact')} className={currentNav === '#contact' ? 'currentNav' : ''}><AiOutlineMessage /></a>
     </nav>
   )
 }
