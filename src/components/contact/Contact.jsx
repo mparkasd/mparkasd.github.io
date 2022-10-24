@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './contact.css'
 import {MdEmail} from 'react-icons/md'
 import {ImWhatsapp} from 'react-icons/im'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_d6gpnth', 'template_ws404uq', form.current, 'iYqPd7JHxYMuz9RL4')
+
+    e.target.reset()
+  };
+
   return (
     <section id='contact'>
       <h5>Let's Chat!</h5>
@@ -25,7 +36,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
