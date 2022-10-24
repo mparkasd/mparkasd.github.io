@@ -10,3 +10,10 @@ footer a {
     color: var(--colorBg);
 }
 
+.footerLogo {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  
