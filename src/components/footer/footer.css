@@ -32,3 +32,18 @@ footer a {
     margin-bottom: 4rem;
 }
 
+.footerSocials a {
+    background: var(--colorBg);
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footerSocials a:hover {
+    background: transparent;
+    color: var(--colorBg);
+    border-color: var(--colorBg);
+}
+
