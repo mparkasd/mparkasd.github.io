@@ -5,10 +5,9 @@
     --colorBgVariant: rgba(0, 0, 0, 0.651);
     --colorPrimary:  rgba(255, 86, 86, 0.932);
     --colorPrimaryVariant: rgba(255, 86, 86, 0.678);
-    --colorWhite: #eeeeeed8;
     --colorLight: rgba(207, 207, 207, 0.781);
 
-    --containerWidthLarge: 60%;
+    --containerWidthLarge: 75%;
     --containerWidthMedium: 86%;
     --containerWidthSmall: 90%;
 
@@ -18,7 +17,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     background: var(--colorBg);
-    color: var(--colorWhite);
+    color: white;
     line-height: 1.7;
     background-image: url(./assets/bg-texture.png);
 }
@@ -73,13 +72,8 @@ section > h2 {
     margin-bottom: 3rem;
 }
 
-.textLight {
-    color: var(--colorLight);
-}
-
-/**/
 a {
-    color: var(--colorPrimaryVariant);
+    color: var(--colorPrimary);
     transition: var(--transition);
 }
 
@@ -90,7 +84,7 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--colorWhite);
+    color: white;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -108,13 +102,12 @@ a:hover {
     width: max-content;
     display: inline-block;
     background: var(--colorBgVariant);
-    color: var(--colorWhite);
+    color: white;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     border: 1px solid transparent;
     transition: var(--transition);
     font-family: 'Oswald', sans-serif;
-    line-height: 1,7;
     text-decoration: underline;
 }
 
@@ -131,7 +124,11 @@ img {
         width: var(--containerWidthMedium);
     }
 
+    section {
+        margin-top: 5rem;
+    }
 }
+
 /* SMARTPHONES */
 @media screen and (max-width: 600px) {
     .container {
