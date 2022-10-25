@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './contact.css'
-import {MdEmail} from 'react-icons/md'
+import {BsMessenger} from 'react-icons/bs'
 import {ImWhatsapp} from 'react-icons/im'
 import emailjs from 'emailjs-com'
 
@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="container contactContainer">
         <div className="contactCards">
           <article className='contactCard'>
-            <MdEmail className='contactCardIcon' />
+            <BsMessenger className='contactCardIcon' />
             <h4>Messenger</h4>
             <h5>mparkasd</h5>
             <a href="https://m.me/mparkasd" target='_blank' rel='noreferrer'>Send A Message</a>
