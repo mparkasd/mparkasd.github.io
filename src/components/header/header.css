@@ -16,7 +16,7 @@ header {
 
 /* HEADER BUTTONS */
 .headerButtons {
-    margin-top: 3rem;
+    margin-top: 4rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -40,10 +40,18 @@ header {
     background: var(--colorPrimaryVariant);
 }
 
+.scrollDown {
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    transform: rotate(-90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
 /* IPHOTO */
 .iPhoto {
-    
-    background: linear-gradient(transparent 8%, var(--colorLight) 50%, transparent 88%);
+    background: linear-gradient(transparent 10%, var(--colorLight) 60%, transparent 101%);
     width: 22rem;
     height: 35rem;
     position: absolute;
@@ -53,22 +61,20 @@ header {
     padding: 0.5rem 1.2rem 1.2rem 1.2rem;
 }
 
-.scrollDown {
-    position: absolute;
-    left: 0;
-    bottom: 5rem;
-    transform: rotate(-90deg);
-    font-weight: 200;
-    font-size: 0.9rem;
-}
-
 /* DEVICES RESIZING */
 /* TABLETS */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 70vh;
     }
 
+    .iPhoto {
+        margin-top: 0.1rem;
+    }
+
+    .headerButtons {
+        margin-top: 2rem;
+    }
 }
 
 /* SMARTPHONES */
