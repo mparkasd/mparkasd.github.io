@@ -47,7 +47,7 @@ const About = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia dolor libero vitae sit perspiciatis pariatur obcaecati aliquid nesciunt, eos recusandae in, nulla quae reiciendis ipsam? Corrupti aperiam vitae id.
           </p>
 
-          <button className='btn btnPrimary'>Say Hi.</button>
+          <a href="#contact" className='btn btnPrimary'>Say Hi.</a>
         </div>
       </div>
     </section>
