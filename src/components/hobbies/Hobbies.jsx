@@ -1,10 +1,10 @@
 import React from 'react'
 import './hobbies.css'
 import GAMING from '../../assets/gaming.png'
-import PHOTOGRAPHY from '../../assets/portfolioIMG.jpg'
+import PHOTOGRAPHY from '../../assets/photography.png'
 import WRITING from '../../assets/portfolioIMG.jpg'
-import FORMULA1 from '../../assets/portfolioIMG.jpg'
-import MARTIALARTS from '../../assets/portfolioIMG.jpg'
+import FORMULA1 from '../../assets/f1.png'
+import MARTIALARTS from '../../assets/martial.png'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
