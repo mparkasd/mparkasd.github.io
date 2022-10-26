@@ -1,6 +1,6 @@
 import React from 'react'
 import './hobbies.css'
-import GAMING from '../../assets/portfolioIMG.jpg'
+import GAMING from '../../assets/gaming.png'
 import PHOTOGRAPHY from '../../assets/portfolioIMG.jpg'
 import WRITING from '../../assets/portfolioIMG.jpg'
 import FORMULA1 from '../../assets/portfolioIMG.jpg'
@@ -62,7 +62,7 @@ const Hobbies = () => {
             return(
               <SwiperSlide key={index} className="hobbySlide">
                 <div className="hobby">
-                  <img src={hobby} alt=""/>
+                  <img src={hobby} alt="" className='hobbyIMG'/>
                 </div>
                 <h5 className='hobbyName'>{name}</h5>
                 <small className='hobbyDesc'>
