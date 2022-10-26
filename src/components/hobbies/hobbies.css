@@ -10,6 +10,7 @@
     border-radius: 50%;
     margin: 0 auto 1rem;
     border: 0.2rem solid var(--colorBg);
+    background: var(--colorPrimaryVariant);
 }
 
 .hobbySlide {
@@ -26,6 +27,10 @@
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
+}
+
+.hobbyIMG {
+    padding-top: 0.4rem;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
