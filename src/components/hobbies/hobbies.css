@@ -9,8 +9,8 @@
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto 1rem;
-    border: 0.2rem solid var(--colorBg);
-    background: var(--colorPrimaryVariant);
+    border: 0.2rem solid var(--colorPrimary);
+    background: var(--colorBg);
 }
 
 .hobbySlide {
