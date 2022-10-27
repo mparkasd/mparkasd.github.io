@@ -13,6 +13,8 @@ const Contact = () => {
     emailjs.sendForm('service_d6gpnth', 'template_ws404uq', form.current, 'iYqPd7JHxYMuz9RL4')
 
     e.target.reset()
+
+    alert("Thank you for your message!")
   };
 
   return (
