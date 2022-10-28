@@ -2,7 +2,7 @@ import React from 'react'
 import './hobbies.css'
 import GAMING from '../../assets/gaming.png'
 import PHOTOGRAPHY from '../../assets/photography.png'
-import WRITING from '../../assets/portfolioIMG.jpg'
+import WRITING from '../../assets/editing.png'
 import FORMULA1 from '../../assets/f1.png'
 import MARTIALARTS from '../../assets/martial.png'
 
