@@ -17,29 +17,29 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-    hobby: GAMING,
-    name: 'Gaming',
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit Quis, ipsa voluptate! Quas sint, architecto ratione quo atque, animi laborum esse aliquam vero amet quidem.Vel sed voluptates facere saepe sequi'
-  },
-  {
     hobby: PHOTOGRAPHY,
     name: 'Photography',
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit Quis, ipsa voluptate! Quas sint, architecto ratione quo atque, animi laborum esse aliquam vero amet quidem.Vel sed voluptates facere saepe sequi'
+    description: "Whether it's the way a picture can capture a feeling or a moment in time, or the way that it can tell a story, I love everything about it. For me, photography is a way to connect with the world around me and to share my own perspective with others."
+  },
+  {
+    hobby: GAMING,
+    name: 'Gaming',
+    description: "It's not just a hobby for me, it's a passion. I love the feeling of being completely immersed in another world, of being able to control the outcome of the story."
   },
   {
     hobby: WRITING,
     name: 'Writing',
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit Quis, ipsa voluptate! Quas sint, architecto ratione quo atque, animi laborum esse aliquam vero amet quidem.Vel sed voluptates facere saepe sequi'
+    description: "Writing articles can be a deeply rewarding experience. Especialy when you write about the games you've played. It's the satisfaction of seeing your name in print, and the feeling of knowing that you might have helped others learn something new."
   },
   {
     hobby: FORMULA1,
     name: 'Formula 1',
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit Quis, ipsa voluptate! Quas sint, architecto ratione quo atque, animi laborum esse aliquam vero amet quidem.Vel sed voluptates facere saepe sequi'
+    description: "The speed, the competition, and the sense of danger really excites me. All the small details that come into play, from strategic split-second decisions to picture-perfect display of driving skills, made Formula 1 one of my biggest passions."
   },
   {
     hobby: MARTIALARTS,
-    name: 'Martial Arts',
-    description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit Quis, ipsa voluptate! Quas sint, architecto ratione quo atque, animi laborum esse aliquam vero amet quidem.Vel sed voluptates facere saepe sequi'
+    name: 'Muay Thai',
+    description: "I never thought I would be interested in a sport that is so physically demanding, but there is something about the discipline, the gracefulness, and the power that is so intoxicating. I'm not sure what it is that has drawn me in, but I can't deny that I'm hooked."
   },
 ]
 
