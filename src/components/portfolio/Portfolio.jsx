@@ -19,28 +19,28 @@ const Portfolio = () => {
               <SiHtml5 className='portfolioDetailsIcon' />
               <div>
                 <h4>HTML</h4>
-                <small className='textLight'>Intermediate</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className='portfolioDetails'>
               <FaCss3 className='portfolioDetailsIcon' />
               <div>
                 <h4>CSS</h4>
-                <small className='textLight'>Intermediate</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className='portfolioDetails'>
               <SiJavascript className='portfolioDetailsIcon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='textLight'>Intermediate</small>
+                <small>Intermediate</small>
               </div>
             </article>
             <article className='portfolioDetails'>
               <SiReact className='portfolioDetailsIcon' />
               <div>
                 <h4>React</h4>
-                <small className='textLight'>Intermediate</small>
+                <small>Intermediate</small>
               </div>
             </article>
           </div>
