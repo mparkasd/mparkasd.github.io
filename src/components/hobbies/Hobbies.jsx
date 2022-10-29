@@ -24,7 +24,7 @@ const data = [
   {
     hobby: GAMING,
     name: 'Gaming',
-    description: "It's not just a hobby for me, it's a passion. I love the feeling of being completely immersed in another world, of being able to control the outcome of the story."
+    description: "It's not just a hobby for me, it's a passion. I love the feeling of being completely immersed in another world and being able to control the outcome of the story. It's a hobby that I'm always happy to dive back into."
   },
   {
     hobby: WRITING,
@@ -39,7 +39,7 @@ const data = [
   {
     hobby: MARTIALARTS,
     name: 'Muay Thai',
-    description: "I never thought I would be interested in a sport that is so physically demanding, but there is something about the discipline, the gracefulness, and the power that is so intoxicating. I'm not sure what it is that has drawn me in, but I can't deny that I'm hooked."
+    description: "I never thought I would be interested in a sport that is so physically demanding, but there is something about the discipline, the gracefulness, and the power that is intoxicating. I'm not sure what it is that has drawn me in, but I'm hooked."
   },
 ]
 
