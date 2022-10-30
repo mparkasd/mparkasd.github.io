@@ -26,7 +26,7 @@ const About = () => {
               <BsPencil className='aboutIcon'/>
               <h4>Editor</h4>
               <small>
-                I write <a href='https://bgeek.eu/author/mparkas/' target="_blank" rel='noreferrer' className='bgeek'>stuff</a> about games.
+                I play games and write <a href='https://bgeek.eu/author/mparkas/' target="_blank" rel='noreferrer' className='bgeek'>stuff</a> about them.
               </small>
             </article>
 
@@ -39,12 +39,12 @@ const About = () => {
             <article className='aboutCard'>
               <TbSchool className='aboutIcon'/>
               <h4>Education</h4>
-              <small>BSc in Computer Science.</small>
+              <small>BSc in Computer Science. University of Sheffield</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia dolor libero vitae sit perspiciatis pariatur obcaecati aliquid nesciunt, eos recusandae in, nulla quae reiciendis ipsam? Corrupti aperiam vitae id.
+            apla xazomares gia to streak.. ntrepomai gia ton eafto mou simera.
           </p>
 
           <a href="#contact" className='btn btnPrimary'>Say Hi.</a>
