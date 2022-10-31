@@ -28,13 +28,13 @@ const Contact = () => {
             <BsMessenger className='contactCardIcon' />
             <h4>Messenger</h4>
             <h5>mparkasd</h5>
-            <a href="https://m.me/mparkasd" target='_blank' rel='noreferrer'>Send A Message</a>
+            <a href="https://m.me/mparkasd" target='_blank' rel='noreferrer' className='sendMSG'>Send A Message</a>
           </article>
           <article className='contactCard'>
             <ImWhatsapp className='contactCardIcon' />
             <h4>WhatsApp</h4>
             <h5>+30 693 4054 247</h5>
-            <a href="https://api.whatsapp.com/send?phone=306934054247" target='_blank' rel='noreferrer'>Send A Message</a>
+            <a href="https://api.whatsapp.com/send?phone=306934054247" target='_blank' rel='noreferrer' className='sendMSG'>Send A Message</a>
           </article>
         </div>
 
