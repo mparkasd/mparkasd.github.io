@@ -53,6 +53,10 @@ input, textarea {
     color: white;
 }
 
+.sendMSG {
+    text-decoration: underline;
+}
+
 /* DEVICES RESIZING */
 /* TABLETS */
 @media screen and (max-width: 1024px) {
