@@ -6,6 +6,7 @@
 
 .bgeek {
     color: var(--colorPrimaryVariant);
+    text-decoration: underline;
 }
 
 .hey {
