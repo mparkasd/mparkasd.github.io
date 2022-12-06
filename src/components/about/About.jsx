@@ -44,7 +44,7 @@ const About = () => {
           </div>
 
           <p>
-            I'm a young aspiring web-developer with experience on front-end. After reigniting my passion for web developent, I feel ready for the challenge ahead, while I am really intrigued by new technologies and platforms. 
+            I'm a young aspiring web-developer with experience on front-end. I feel ready for the challenge ahead, while I am really intrigued by new technologies and platforms. 
           </p>
           <p>
             I like meeting new people, discusing new and exciting ideas, while also constantly trying to improve myself and help others improve as well. Only together can we go forward!
