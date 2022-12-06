@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a25b0fb6.css",
-    "main.js": "/static/js/main.0473c1df.js",
+    "main.css": "/static/css/main.403a907a.css",
+    "main.js": "/static/js/main.3f8e0f40.js",
     "static/media/aboutMePhoto.png": "/static/media/aboutMePhoto.2dd8606227662fd8e525.png",
-    "static/media/iPhoto.png": "/static/media/iPhoto.d5647c08b94caa1a2d43.png",
     "static/media/martial.png": "/static/media/martial.f4784808d5683bc25c83.png",
     "static/media/photography.png": "/static/media/photography.12dda60ed35fca81e3be.png",
     "static/media/gaming.png": "/static/media/gaming.201262d223f6b388938f.png",
@@ -11,11 +10,11 @@
     "static/media/cv.pdf": "/static/media/cv.191a6878e64f7f91e885.pdf",
     "static/media/editing.png": "/static/media/editing.eb9fb973c64c79336689.png",
     "index.html": "/index.html",
-    "main.a25b0fb6.css.map": "/static/css/main.a25b0fb6.css.map",
-    "main.0473c1df.js.map": "/static/js/main.0473c1df.js.map"
+    "main.403a907a.css.map": "/static/css/main.403a907a.css.map",
+    "main.3f8e0f40.js.map": "/static/js/main.3f8e0f40.js.map"
   },
   "entrypoints": [
-    "static/css/main.a25b0fb6.css",
-    "static/js/main.0473c1df.js"
+    "static/css/main.403a907a.css",
+    "static/js/main.3f8e0f40.js"
   ]
 }
